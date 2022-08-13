@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* BODY */
+body {
+	background: #4A2812;
+	width: 100%;
+}
+hr {
+	width: 75%;
+	height: 2px;
+	background-color: #EDBC53;
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* HEADER */
+header {
+	background: #4A2812;
+	text-align:end;
+	width: 100%;
+	display:flex;
+}
+.header__logoMenu{
+	padding: 15px 30px 15px 30px;
+	width: 6%
+}
+.header__barraMenu{
+	width: 100%;
+}
+.header__textoMenu:hover{
+	color: #ffffff;
+}
+.header__textoMenu{
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: none;
+	color: #EDBC53;
+	display: inline-block;
+	margin: 40px 80px;	
+}
+
+/* MAIN */
+.main__fotoHome{
+    width: 100%;
+    height: 50rem;
+    text-align: center;
+    padding-top: 15rem;
+    background-image: url("../img/areanaturalprotegida.jpg");
+    background-size: cover;
+}
+.main__mensajeBienvenida{
+	text-align: center;
+	position:relative;
+	font-size: 60px;
+	color: #EDBC53;
+	text-shadow: 0px 0px 15px #000000;
+}
+.main__subtitulo{
+	text-align: center;
+	font-size: 40px;
+	color: #EDBC53;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.main__items{
+	display: flex
+}
+
+/* CABAÑAS */
+.main__fotoAlquileres{
+	width: 75%;
+}
+.main__textoAlquileres{
+	color: #EDBC53;
+}
+.main__alquiler1{
+	font-size: 20px;
+}
+.main__alquiler2{
+	font-size: 60px;
+}
+.main__alquiler3{
+	font-size: 15px;
+}
+.main__alquiler4{
+	font-size: 25px;
+}
+.main__textoAlquileres1{
+	display: inline-flex;	
+}
+.botones{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.main__info{
+	display:inline-block;
+}
+.main__botonPleno {
+	background-color:#edbc53;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#4a2812;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.main__botonPleno:hover {
+	background-color:#ffffff;
+}
+.main__botonPleno:active {
+	position:relative;
+	top:1px;
+}
+.main__botonLinea {
+	background-color:transparent;
+	border-radius:42px;
+	border:1px solid #edbc53;
+	display:inline-block;
+	cursor:pointer;
+	color:#edbc53;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.main__botonLinea:hover {
+	background-color:transparent;
+}
+.main__botonLinea:active {
+	position:relative;
+	top:1px;
+}
+
+/* CABAÑAS GRID */
+.main__alquileres{
+	display: grid;
+	grid-template-areas: "main__cabanas1", "main__cabanas2", "main__cabanas3", "main__cabanas4";
+	grid-template-columns: 75%;
+	justify-content: center
+}
+.main__cabanas1{
+	display:flex;
+	grid-template-areas: "main__fotoAlquileres", "main__textoAlquileres";
+	grid-column: 1;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: solid 0px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.main__cabanas2{
+	display:flex;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: solid 0px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.main__cabanas3{
+	display:flex;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: solid 0px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.main__cabanas4{
+	display:flex;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: solid 0px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* SERVICIOS */
+.main__todoServicios{
+	margin: 20%;
+}
+.main__servicios{
+	display: flex;
+	width: 75%;
+}
+.main__fotoServicios{
+	width: 260px;
+}
+.main__textoServicios{
+	color: #EDBC53;
+	width: 5000px;
+}
+.main__servicioTitulo{
+	display: flex
+}
+.main__servicio{
+	font-size: 40px;
+}
+
+/* FOOTER */
+footer {
+	background-color: #4A2812;
+}
+
+/* CONTACTO */
