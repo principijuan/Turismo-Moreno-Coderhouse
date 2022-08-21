@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../estilos/estilo.css">
-    <title>Descubrí Moreno</title>
 	
+    
+	<!-- BOOTSTRAP Y CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="../estilos/estilo.css">
+	<title>Descubrí Moreno</title>
+
 	<!-- TIPOGRAFÍAS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,281 +19,360 @@
 
 <body class="contenedor">
 	    
-<!-- HEADER -->
-	<header class="header">
-
-        <img src="../img/logoCorto.svg" alt="Logo Descubrí Moreno" href="../index.html" class="header__logoMenu">
-
-		
-        <div class="header__barraMenu">
-            <a class="header__textoMenu" href="losrobles.html"> Los Robles </a>
-            <a class="header__textoMenu" href="busturistico.html"> Bus Turístico </a>
-            <a class="header__textoMenu" href="agenda.html"> Agenda </a>
-            <a class="header__textoMenu" href="contacto.html"> Contacto </a>
-		</div>
-
-    </header>
-<!-- MAIN -->
+	<!--------------------------- HEADER --------------------------->
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+			  <a class="navbar-brand header__logoMenu" href="../index.html"> <img src="../img/logoLargo.svg" alt=""></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item header__textoMenu">
+					<a class="nav-link header__textoMenu" href="losrobles.html">Los Robles</a>
+				  </li>
+				  <li class="nav-item header__textoMenu">
+					<a class="nav-link header__textoMenu" href="busturistico.html">Bus Turístico</a>
+				  </li>
+				  <li class="nav-item header__textoMenu">
+					<a class="nav-link header__textoMenu" href="agenda.html">Agenda</a>
+				  </li>
+				  <li class="nav-item header__textoMenu">
+					<a class="nav-link header__textoMenu" href="contacto.html">Contacto</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		 </nav>
+	</header>	
+	<!--------------------------- MAIN --------------------------->
     <main class="main">
         <section>
 			<div class="main__fotoHome"> 
-			<h1 class="main__mensajeBienvenida">DESCUBRÍ LOS ROBLES</h1></div>
+				<h1 class="main__mensajeBienvenida">DESCUBRÍ LOS ROBLES</h1>
+			</div>
         </section>
-		
-	<!-- ALQUILERES -->
+
+		<!-- ALQUILERES -->
 		<section>
 			<h2 class="main__subtitulo">ALQUILERES</h2>
-				
-			
 			<!-- CABAÑAS -->
 			<section class="main__alquileres">
-				<div class="main__cabanas1"> 
-				<div> 
-					<img class="main__fotoAlquileres" alt="Foto de cabañas" src="../img/alquilerCabana.jpg"></div>
-				<div class="main__textoAlquileres">
-					<h4 class="main__alquiler1">Alquiler de</h4>
-					<h3 class="main__alquiler2">CABAÑAS</h3>
-				<div class="main__textoAlquileres1"><div>
-					<h6 class="main__alquiler3">Precio por noche</h6>
-					<h5 class="main__alquiler4">$3000</h5></div>
-				<div>
-					<h6 class="main__alquiler3">Días disponibles</h6>
-					<h5 class="main__alquiler4">Jueves a domingos</h5>
-				</div></div><br>
-				<!-- <a>La cabaña viene equipada con: </a>
-				<a>
-					<li>Kitchenette</li>
-					<li>Heladera</li>
-					<li>Anafe eléctrico</li>
-					<li>Aire acondicionado</li>
-					<li>Baño privado</li>
-					<li>Ducha con agua caliente</li>
->					<li>Exterior con mesa y parrilla</li> 
-				</a> -->
-				<div class="botones">
-				<a class="main__botonPleno">RESERVÁ</a>
-				<a class="main__botonLinea">MÁS INFO</a>
-					</div></div></div><br><hr><br>
 			
+				<!--<div class="card md-8 card" style="max-width: 75%;">
+					<div class="row g-0">
+					  <div class="col-md-4">
+						<img src="../img/alquilerAcampe.jpg" class="img-fluid rounded-start" alt="...">
+					  </div>
+					  <div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Alquiler de cabañas</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <ul class="list-group list-group-flush">
+							<li class="list-group-item">Precio por noche: $3000</li>
+							<li class="list-group-item">Días disponibles: Jueves a domingos</li>
+							<li class="list-group-item">A third item</li>
+						  </ul>
+						  <div class="card-body">
+							<a href="#" class="card-link">Reservar</a>
+							<a href="#" class="card-link">Ver fotos</a>
+						  </div>
+					</div>
+				  </div>-->
+			
+				<div class="main__cabanas1"> 
+					<div> 
+						<img class="main__fotoAlquileres" alt="Foto de cabañas" src="../img/alquilerCabana.jpg">
+					</div>
+					<div class="main__textoAlquileres">
+						<h4 class="main__alquiler1">Alquiler de</h4>
+						<h3 class="main__alquiler2">CABAÑAS</h3>
+						<div class="main__textoAlquileres1">
+							<div>
+								<h6 class="main__alquiler3">Precio por noche</h6>
+								<h5 class="main__alquiler4">$3000</h5>
+							</div>
+							<div>
+								<h6 class="main__alquiler3">Días disponibles</h6>
+								<h5 class="main__alquiler4">Jueves a domingos</h5>
+							</div>
+						</div><br>
+									<!-- <a>La cabaña viene equipada con: </a>
+										<a>
+											<li>Kitchenette</li>
+											<li>Heladera</li>
+											<li>Anafe eléctrico</li>
+											<li>Aire acondicionado</li>
+											<li>Baño privado</li>
+											<li>Ducha con agua caliente</li>
+											<li>Exterior con mesa y parrilla</li> 
+										</a> -->
+						<div class="botones">
+							<button type="button" class="btn btn-warning">Reservar</button>
+							<button type="button" class="btn btn-outline-warning">Más info</button>
+						</div>
+					</div>
+				</div><br><br>
 			<!-- POSADAS -->
 				<div class="main__cabanas2"> 
-				<div> 
-					<img class="main__fotoAlquileres" alt="Foto de posada" src="../img/alquilerPosada.jpg"></div>
-				<div class="main__textoAlquileres">
-					<h4 class="main__alquiler1">Alquiler de</h4>
-					<h3 class="main__alquiler2">POSADAS</h3>
-				<div class="main__textoAlquileres1"><div>
-					<h6 class="main__alquiler3">Precio por noche</h6>
-					<h5 class="main__alquiler4">$4500</h5></div>
-				<div>
-					<h6 class="main__alquiler3">Días disponibles</h6>
-					<h5 class="main__alquiler4">Jueves a domingos</h5>
-			</div></div><br>
-				<!-- <a>La cabaña viene equipada con: </a>
-				<a>
-					<li>Kitchenette</li>
-					<li>Heladera</li>
-					<li>Anafe eléctrico</li>
-					<li>Mesa y banquetas</li>
-					<li>Baño privado</li>
-					<li>Ducha con agua caliente</li>
-					<li>Exterior con mesa y parrilla</li>
-					<li>Aire acondicionado</li>
-				</a> -->
-				<div class="botones">
-				<a class="main__botonPleno">RESERVÁ</a>
-				<a class="main__botonLinea">MÁS INFO</a>
-					</div></div></div><br><hr><br>
-					
+					<div> 
+						<img class="main__fotoAlquileres" alt="Foto de posada" src="../img/alquilerPosada.jpg">
+					</div>
+					<div class="main__textoAlquileres">
+						<h4 class="main__alquiler1">Alquiler de</h4>
+						<h3 class="main__alquiler2">POSADAS</h3>
+						<div class="main__textoAlquileres1">
+							<div>
+								<h6 class="main__alquiler3">Precio por noche</h6>
+								<h5 class="main__alquiler4">$4500</h5>
+							</div>
+							<div>
+								<h6 class="main__alquiler3">Días disponibles</h6>
+								<h5 class="main__alquiler4">Jueves a domingos</h5>
+							</div>
+						</div><br>
+									<!-- <a>La cabaña viene equipada con: </a>
+										<a>
+											<li>Kitchenette</li>
+											<li>Heladera</li>
+											<li>Anafe eléctrico</li>
+											<li>Mesa y banquetas</li>
+											<li>Baño privado</li>
+											<li>Ducha con agua caliente</li>
+											<li>Exterior con mesa y parrilla</li>
+											<li>Aire acondicionado</li>
+										</a> -->
+						<div class="botones">
+							<button type="button" class="btn btn-warning">Reservar</button>
+							<button type="button" class="btn btn-outline-warning">Más info</button>
+						</div>
+					</div>
+				</div><br><br>
 			<!-- ZONA DE ACAMPE -->
 				<div class="main__cabanas3"> 
-				<div> 
-					<img class="main__fotoAlquileres" alt="Foto de acampe" src="../img/alquilerAcampe.jpg"></div>
-				<div class="main__textoAlquileres">
-					<h4 class="main__alquiler1">Alquiler de</h4>
-					<h3 class="main__alquiler2">ZONA DE ACAMPE</h3>
-				<div class="main__textoAlquileres1"><div>
-					<h6 class="main__alquiler3">Precio por noche</h6>
-					<h5 class="main__alquiler4">$3000</h5></div>
-					<div>
-					<h6 class="main__alquiler3">Días disponibles</h6>
-					<h5 class="main__alquiler4">Jueves a domingos</h5>
-				</div></div><br>
-				<!-- <a>La cabaña viene equipada con: </a>
-				<a>
-					<li>Kitchenette</li>
-					<li>Heladera</li>
-					<li>Anafe eléctrico</li>
-					<li>Aire acondicionado</li>
-					<li>Baño privado</li>
-					<li>Ducha con agua caliente</li>
-					<li>Exterior con mesa y parrilla</li>
-				</a> -->
-				<div class="botones">
-				<a class="main__botonPleno">RESERVÁ</a>
-				<a class="main__botonLinea">MÁS INFO</a>
-					</div></div></div><br><hr><br>
-			
+					<div> 
+						<img class="main__fotoAlquileres" alt="Foto de acampe" src="../img/alquilerAcampe.jpg">
+					</div>
+					<div class="main__textoAlquileres">
+						<h4 class="main__alquiler1">Alquiler de</h4>
+						<h3 class="main__alquiler2">ZONA DE ACAMPE</h3>
+						<div class="main__textoAlquileres1">
+							<div>
+								<h6 class="main__alquiler3">Precio por noche</h6>
+								<h5 class="main__alquiler4">$3000</h5>
+							</div>
+							<div>
+								<h6 class="main__alquiler3">Días disponibles</h6>
+								<h5 class="main__alquiler4">Jueves a domingos</h5>
+							</div>
+						</div><br>
+									<!-- <a>La cabaña viene equipada con: </a>
+										<a>
+											<li>Kitchenette</li>
+											<li>Heladera</li>
+											<li>Anafe eléctrico</li>
+											<li>Aire acondicionado</li>
+											<li>Baño privado</li>
+											<li>Ducha con agua caliente</li>
+											<li>Exterior con mesa y parrilla</li>
+										</a> -->
+						<div class="botones">
+							<button type="button" class="btn btn-warning">Reservar</button>
+							<button type="button" class="btn btn-outline-warning">Más info</button>
+						</div>
+					</div>
+				</div><br><br>
 			<!-- EVENTOS Y REUNIONES -->
-			  <div class="main__cabanas4"> 
-				<div> 
-					<img class="main__fotoAlquileres" alt="Foto de cabaña" src="../img/alquilerEventos.jpg"></div>
-				<div class="main__textoAlquileres">
-					<h4 class="main__alquiler1">Alquiler para</h4>
-					<h3 class="main__alquiler2">EVENTOS Y REUNIONES</h3>
-				<div class="main__textoAlquileres1"><div>
-					<h6 class="main__alquiler3">Precio por noche</h6>
-					<h5 class="main__alquiler4">$3000</h5></div>
-					<div>
-					<h6 class="main__alquiler3">Días disponibles</h6>
-					<h5 class="main__alquiler4">Jueves a domingos</h5>
-				</div></div><br>
-				<!-- <a>La cabaña viene equipada con: </a>
-				<a>
-					<li>Kitchenette</li>
-					<li>Heladera</li>
-					<li>Anafe eléctrico</li>
-					<li>Aire acondicionado</li>
-					<li>Baño privado</li>
-					<li>Ducha con agua caliente</li>
-					<li>Exterior con mesa y parrilla</li>
-				</a> -->
-				<div class="botones">
-				<a class="main__botonPleno">RESERVÁ</a>
-				<a class="main__botonLinea">MÁS INFO</a>
-					</div></div></div><br><hr><br>
-		</section></section>
-		
-	<!-- SERVICIOS -->
-		<div class="main__todoServicios"><section>
-			<h2 class="main__subtitulo">SERVICIOS</h2>
-		</section><br>
+				<div class="main__cabanas4"> 
+					<div> 
+						<img class="main__fotoAlquileres" alt="Foto de cabaña" src="../img/alquilerEventos.jpg">
+					</div>
+					<div class="main__textoAlquileres">
+						<h4 class="main__alquiler1">Alquiler para</h4>
+						<h3 class="main__alquiler2">EVENTOS Y REUNIONES</h3>
+						<div class="main__textoAlquileres1">
+							<div>
+								<h6 class="main__alquiler3">Precio por noche</h6>
+								<h5 class="main__alquiler4">$3000</h5>
+							</div>
+							<div>
+								<h6 class="main__alquiler3">Días disponibles</h6>
+								<h5 class="main__alquiler4">Jueves a domingos</h5>
+							</div>
+						</div><br>
+									<!-- <a>La cabaña viene equipada con: </a>
+										<a>
+											<li>Kitchenette</li>
+											<li>Heladera</li>
+											<li>Anafe eléctrico</li>
+											<li>Aire acondicionado</li>
+											<li>Baño privado</li>
+											<li>Ducha con agua caliente</li>
+											<li>Exterior con mesa y parrilla</li>
+										</a> -->
+						<div class="botones">
+							<button type="button" class="btn btn-warning">Reservar</button>
+							<button type="button" class="btn btn-outline-warning">Más info</button>
+						</div>
+					</div>
+				</div><br><br>
+			</section>
+		</section>
+		<!-- SERVICIOS -->
+		<h2 class="main__subtitulo">SERVICIOS</h2>
+		<section class="main__todoServicios"><br>
 		
 			<!-- SECTOR GASTRONÓMICO -->
 			<div class="main__servicios">
 				<div>
-					<img class="main__fotoServicios" alt="Foto de comida" src="../img/sectorGastronomico.jpg"></div>
+					<img class="main__fotoServicios" alt="Foto de comida" src="../img/sectorGastronomico.jpg">
+				</div>
 				<div class="main__textoServicios">
 					<div class="main__servicioTitulo">
-					<h2 class="main__servicio">SECTOR GASTRONÓMICO</h2>
-					<a class="main__botonLinea">Galería de fotos</a></div><br>
+						<h2 class="main__servicio">SECTOR GASTRONÓMICO</h2>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Galería de fotos</button>
+					</div><br>
 					<h6 class="main__alquiler3">¿Cuándo?</h6>
 					<h5 class="main__alquiler4">Sábados y domingo</h5><br>
 					<a>El sector consta de
-					<li>Food truck de licuados, jugos y cerveza artesanal</li>
-					<li>Food truck de comida tradicional, vegetariana, vegana y libre de gluten</li></a></div>
-		</div><br><br><br>
+						<li>Food truck de licuados, jugos y cerveza artesanal</li>
+						<li>Food truck de comida tradicional, vegetariana, vegana y libre de gluten</li>
+					</a>
+				</div>
+			</div><br><br><br>
 		
 			<!-- FERIA ARTESANAL -->
-				<div class="main__servicios">
-					<div>
-						<img class="main__fotoServicios" alt="Foto de artesanias" src="../img/feriaArtesanal.JPG"></div>
-					<div class="main__textoServicios">
-						<div class="main__servicioTitulo">
+			<div class="main__servicios">
+				<div>
+					<img class="main__fotoServicios" alt="Foto de artesanias" src="../img/feriaArtesanal.JPG">
+				</div>
+				<div class="main__textoServicios">
+					<div class="main__servicioTitulo">
 						<h2 class="main__servicio">FERIA ARTESANAL</h2>
-						<a class="main__botonLinea">Galería de fotos</a></div><br>
-						<a>Lugar de encuentro de la cultura y la economía popular</a><br><br>
-						<h6 class="main__alquiler3">¿Cuándo?</h6>
-						<h5 class="main__alquiler4">Sábados y domingos a las 12 hs</h5>
-					</div></div><br><br><br>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Más info</button>
+					</div><br>
+					<a>Lugar de encuentro de la cultura y la economía popular</a><br><br>
+					<h6 class="main__alquiler3">¿Cuándo?</h6>
+					<h5 class="main__alquiler4">Sábados y domingos a las 12 hs</h5>
+				</div>
+			</div><br><br><br>
 		
 			<!-- YOGA PARA TODAS LAS EDADES -->
-				<div class="main__servicios">
-					<div>
-						<img class="main__fotoServicios" alt="Foto de yoga" src="../img/yogaEdades.jpg"></div>
-					<div class="main__textoServicios">
-						<div class="main__servicioTitulo">
+			<div class="main__servicios">
+				<div>
+					<img class="main__fotoServicios" alt="Foto de yoga" src="../img/yogaEdades.jpg">
+				</div>
+				<div class="main__textoServicios">
+					<div class="main__servicioTitulo">
 						<h2 class="main__servicio">YOGA PARA TODAS LAS EDADES</h2>
-						<a class="main__botonLinea">Galería de fotos</a></div><br>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Más info</button>
+					</div><br>
 						<h6 class="main__alquiler3">¿Cuándo?</h6>
 						<h5 class="main__alquiler4">Sábados y domingos a las 12 hs</h5><br>
 						<h6 class="main__alquiler3">Inscripción</h6>
 						<h5 class="main__alquiler4">turismo@moreno.gov.ar</h5>
-					</div></div><br><br><br>
+				</div>
+			</div><br><br><br>
 					
 			<!-- YOGA PARA LAS INFANCIAS -->
-				<div class="main__servicios">
-					<div>
-						<img class="main__fotoServicios" alt="Foto de yoga infantil" src="../img/yogaInfancias.png"></div>
-					<div class="main__textoServicios">
-						<div class="main__servicioTitulo">
+			<div class="main__servicios">
+				<div>
+					<img class="main__fotoServicios" alt="Foto de yoga infantil" src="../img/yogaInfancias.png">
+				</div>
+				<div class="main__textoServicios">
+					<div class="main__servicioTitulo">
 						<h2 class="main__servicio">YOGA PARA LAS INFANCIAS</h2>
-						<a class="main__botonLinea">Galería de fotos</a></div><br>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Más info</button>
+					</div><br>
 						<h6 class="main__alquiler3">¿Cuándo?</h6>
 						<h5 class="main__alquiler4">Sábados a las 15:30 hs</h5><br>
 						<h6 class="main__alquiler3">Inscripción</h6>
 						<h5 class="main__alquiler4">turismo@moreno.gov.ar</h5>
-					</div><br><br><br>
-		</div><br><br><br>
+				</div>
+			</div><br><br><br>
 
 			<!-- RECREACIÓN Y DEPORTES -->
-				<div class="main__servicios">
-					<div>
-						<img class="main__fotoServicios" alt="Foto de chicos jugando" src="../img/recreacionDeportes.JPG"></div>
-					<div class="main__textoServicios">
-						<div class="main__servicioTitulo">
+			<div class="main__servicios">
+				<div>
+					<img class="main__fotoServicios" alt="Foto de chicos jugando" src="../img/recreacionDeportes.JPG">
+				</div>
+				<div class="main__textoServicios">
+					<div class="main__servicioTitulo">
 						<h2 class="main__servicio">RECREACIÓN Y DEPORTES</h2>
-						<a class="main__botonLinea">Galería de fotos</a></div><br>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Más info</button>
+					</div><br>
 						<h6 class="main__alquiler3">¿Cuándo?</h6>
 						<h5 class="main__alquiler4">Sábados a las 14 hs</h5><br>
-					</div><br><br><br>
-		</div><br><br><br>
+				</div>
+			</div><br><br><br>
 
 			<!-- CHI KUNG -->
-				<div class="main__servicios">
-					<div>
-						<img class="main__fotoServicios" alt="Foto de señora haciendo yoga" src="../img/chiKung.jfif"></div>
-					<div class="main__textoServicios">
-						<div class="main__servicioTitulo">
+			<div class="main__servicios">
+				<div>
+					<img class="main__fotoServicios" alt="Foto de señora haciendo yoga" src="../img/chiKung.jfif">
+				</div>
+				<div class="main__textoServicios">
+					<div class="main__servicioTitulo">
 						<h2 class="main__servicio">CHI-KUNG (YOGA CHINO)</h2>
-						<a class="main__botonLinea">Galería de fotos</a></div><br>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Más info</button>
+					</div><br>
 						<h6 class="main__alquiler3">¿Cuándo?</h6>
 						<h5 class="main__alquiler4">Jueves a las 10 hs</h5><br>
 						<h6 class="main__alquiler3">Inscripción</h6>
 						<h5 class="main__alquiler4">turismo@moreno.gov.ar</h5>
-					</div><br><br><br>
-		</div>
+				</div>
+			</div><br><br><br>
 		
 			<!-- OTROS SERVICIOS -->
-				<div class="main__servicios">
-					<div>
-						<img class="main__fotoServicios" alt="Foto de gente en un camping" src="../img/otrosServicios.JPG"></div>
-					<div class="main__textoServicios">
-						<div class="main__servicioTitulo">
+			<div class="main__servicios">
+				<div>
+					<img class="main__fotoServicios" alt="Foto de gente en un camping" src="../img/otrosServicios.JPG">
+				</div>
+				<div class="main__textoServicios">
+					<div class="main__servicioTitulo">
 						<h2 class="main__servicio">OTROS SERVICIOS</h2>
-						<a class="main__botonLinea">Galería de fotos</a></div><br>
-						<a class="main__items"><div>
+						<button type="button" class="btn btn-outline-warning main__servicioBoton">Más info</button>
+					</div><br>
+					<a class="main__items">
+						<div>
 							<li>Alquiler de mesas y parrillas</li>
 							<li>Proveeduría</li>
 							<li>Zona de juegos</li>
 							<li>Biblioteca de naturaleza</li>
-							<li>Baños</li></div>
-							<div>
+							<li>Baños</li>
+						</div>
+						<div>
 							<li>Caminatas guiadas por los senderos</li>
 							<li>Actividades recreativas y deportivas</li>
 							<li>Zona de juegos</li>
 							<li>Estacionamiento</li>
-							<li>Punto Wi-Fi</li></div>
-						</a>
-					</div><br><br><br>
-		</div></div>
+							<li>Punto Wi-Fi</li>
+						</div>
+					</a>
+				</div><br><br><br>
+			</div>
+		</section>
 		
-	<!-- TARIFAS -->
+		<!-- TARIFAS -->
 		<section>
 			<h2 class="main__subtitulo">TARIFAS</h2>
 		</section>
 		
-	<!-- COMO LLEGAR -->
+		<!-- COMO LLEGAR -->
 		<section>
 			<h2 class="main__subtitulo">CÓMO LLEGAR</h2>
 		</section>
 		
     </main>
-<!-- FOOTER -->
+	<!---------------------------FOOTER--------------------------->
     <footer class="footer">
         <p>¡Seguinos en nuestras redes!</p>
 		<p>Facebook / Instagram / Twitter</p>
     </footer>
 
+	<!-- BOOTSTRAP -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
