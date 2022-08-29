@@ -230,6 +230,7 @@ hr {
 /* FOOTER */
 footer {
 	background-color: #EDBC53;
+	width: 100%;
 }
 
 /* CONTACTO */
@@ -387,8 +388,43 @@ footer {
 	}
 }
 
-.contacto{
+.main__contacto{
+	width: 50%;
+	margin: auto;
+	padding: 5vh;
+}
+
+.main__contactoFondo{
 	background-color: #EDBC53;
+	width: 100%;
+}
+
+.main__contactoTexto{
+	font-size: 5vh;
+	color: #4A2812;
+	text-align: center;
+	padding: 5vh;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.main__redesTexto{
+	font-size: 3vh;
+	color: #4A2812;
+	text-align: center;
+	padding: 5vh;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.main__redes{
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main__carousel{
 	width: 75%;
 	margin: auto;
 }
