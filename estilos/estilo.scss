@@ -1,0 +1,19 @@
+@import 
+    "./partials/_body.scss",
+    "./partials/_header.scss",
+    "./partials/_main.scss",
+    "./partials/_footer.scss",
+    "./partials/_variables";
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.card{
+	height: 40vh;
+}
+
