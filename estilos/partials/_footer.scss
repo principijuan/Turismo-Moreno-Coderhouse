@@ -1,13 +1,13 @@
 @media (max-width: 576px){
 footer{
-    background-color: #EDBC53;
-    color: #4A2812;
+    background-color: $secondaryColor;
+    color: $primaryColor;
     text-align: center;
 }
 }
 @media (min-width: 577px){
     footer {
-        background-color: #EDBC53;
+        background-color: $secondaryColor;
         width: 100%;
     }
 }

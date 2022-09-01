@@ -4,7 +4,7 @@
 }
 header {
     display: flex;
-    background: #4A2812;
+    background: $primaryColor;
     width: 100%;
     margin: auto;
 }
@@ -14,19 +14,19 @@ header {
     margin: auto;
     position: fixed;
     display: flex;
-    background-color: #4A2812;
+    background-color: $primaryColor;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
     
-}
-.header__textoMenu:hover{
-    color: #ffffff;
 }
 .header__textoMenu{
     font-weight: 400;
     font-size: 1.5vh;
     text-decoration: none;
-    color: #EDBC53;
+    color: $secondaryColor;
     margin: auto;	
+        &:hover{
+            color: #ffffff;
+        }
 }
 }
 @media (min-width: 577px){
@@ -34,16 +34,16 @@ header {
         padding: 15px 30px 15px 30px;
         width: 22vh
     }
-    .header__textoMenu:hover{
-        color: #ffffff;
-        transition: 0.5s;
-    }
     .header__textoMenu{
         font-weight: 400;
         font-size: 20px;
         text-decoration: none;
-        color: #EDBC53;
+        color: $secondaryColor;
         display: inline-block;
-        margin: 0 1vh;	
+        margin: 0 1vh;
+            &:hover{
+                color: #ffffff;
+                transition: 0.5s;
+            }	
     }
 }

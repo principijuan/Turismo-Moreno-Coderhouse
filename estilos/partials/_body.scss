@@ -2,9 +2,9 @@
 	
 	/* BODY */
 	body {
-		background: #4A2812;
+		background: $primaryColor;
 		width: 100%;
-		color: #EDBC53;
+		color: $secondaryColor;
 	}
 	img{
 		width: 100%;
@@ -12,13 +12,13 @@
 }
 @media (min-width: 577px){
 body {
-	background: #4A2812;
+	background: $primaryColor;
 	width: 100%;
 }
 hr {
 	width: 75%;
 	height: 2px;
-	background-color: #EDBC53;
+	background-color: $secondaryColor;
 	margin:auto;
 	margin-top: 30px;
 	margin-bottom: 30px;

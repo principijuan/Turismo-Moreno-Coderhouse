@@ -11,7 +11,7 @@
 .main__mensajeBienvenida{
     margin: auto;
     line-height: 500px;
-    color: #edbc53;
+    color: $secondaryColor;
     font-size: 3rem;
 }
 .main__subtitulo{
@@ -64,13 +64,13 @@
     border-radius: 25px 25px 0 0;
 }
 .btn-warning{
-    background-color: #EDBC53;
-    color: #4A2812;
+    background-color: $secondaryColor;
+    color: $primaryColor;
     margin: 0 5px;
 }
 .btn-outline-warning{
-    border-color: #EDBC53;
-    color:#EDBC53;
+    border-color: $secondaryColor;
+    color:$secondaryColor;
     margin: 0 5px;
 }
 /* SERVICIOS */
@@ -94,7 +94,7 @@
 }
 .main__items{
     text-decoration: none;
-    color: #EDBC53;
+    color: $secondaryColor;
 }
 
 .main__contacto{
@@ -104,13 +104,13 @@
 }
 
 .main__contactoFondo{
-	background-color: #EDBC53;
+	background-color: $secondaryColor;
 	width: 100%;
 }
 
 .main__contactoTexto{
 	font-size: 5vh;
-	color: #4A2812;
+	color: $primaryColor;
 	text-align: center;
 	padding: 5vh;
 	font-weight: 600;
@@ -119,7 +119,7 @@
 
 .main__redesTexto{
 	font-size: 3vh;
-	color: #4A2812;
+	color: $primaryColor;
 	text-align: center;
 	padding: 5vh;
 	font-weight: 600;
@@ -151,13 +151,13 @@
         text-align: center;
         position:relative;
         font-size: 60px;
-        color: #EDBC53;
+        color: $secondaryColor;
         text-shadow: 0px 0px 15px #000000;
     }
     .main__subtitulo{
         text-align: center;
         font-size: 40px;
-        color: #EDBC53;
+        color: $secondaryColor;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -172,7 +172,7 @@
         width: 60vh;
     }
     .main__textoAlquileres{
-        color: #EDBC53;
+        color: $secondaryColor;
         margin: 6vh;
     }
     .main__alquiler1{
@@ -198,47 +198,24 @@
     .main__info{
         display:inline-block;
     }
-    .main__botonPleno {
-        background-color:#edbc53;
-        border-radius:42px;
-        display:inline-block;
-        cursor:pointer;
-        color:#4a2812;
-        font-size:17px;
-        font-weight:bold;
-        padding:16px 31px;
-        text-decoration:none;
-    }
-    .main__botonPleno:hover {
-        background-color:#ffffff;
-        transition: 0,5s;
-    }
-    .main__botonPleno:active {
-        position:relative;
-        top:1px;
-    }
     .btn-warning{
-        background-color: #EDBC53;
-        color: #4A2812;
+        background-color: $secondaryColor;
+        color: $primaryColor;
         margin: 0 5px;
-    }
-    .btn-warning:hover{
-        background-color: #ffffff;
-        border-color: #ffffff;
+            &:hover{
+                background-color: #ffffff;
+                border-color: #ffffff;                
+            }
     }
     .btn-outline-warning{
-        border-color: #EDBC53;
-        color:#EDBC53;
+        border-color: $secondaryColor;
+        color:$secondaryColor;
         margin: 0 5px;
-    }
-    .btn-outline-warning:hover{
-        background-color: #ffffff;
-        border-color: #ffffff;
-        transition: 0.5s;
-    }
-    .main__botonLinea:active {
-        position:relative;
-        top:1px;
+            &:hover{
+                background-color: #ffffff;
+                border-color: #ffffff;
+                transition: 0.5s;
+            }
     }
     
     /* CABAÑAS GRID */
@@ -309,7 +286,7 @@
         border-radius: 15px;
     }
     .main__textoServicios{
-        color: #EDBC53;
+        color: $secondaryColor;
         width: 50vh;
     }
     .main__servicioTitulo{
@@ -320,6 +297,6 @@
     }
     .main__items{
         text-decoration: none;
-        color: #EDBC53;
+        color: $secondaryColor;
     }
 }
