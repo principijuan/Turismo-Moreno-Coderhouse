@@ -1,0 +1,38 @@
+.botonesSass{
+    width: 15%;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin botones ($color) {
+    background-color: $color;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 05px;
+    color: #fff;
+}
+
+.boton1{
+    @include botones (#007BFF);
+    &:Hover{
+        background-color: #007AE8;
+    }
+}
+.boton2{
+    @include botones (#DC3545);
+    &:Hover{
+        background-color: #BC2F44;
+    }
+}
+.boton3{
+    @include botones (#28A745);
+    &:Hover{
+        background-color: #27933B;
+    }
+}

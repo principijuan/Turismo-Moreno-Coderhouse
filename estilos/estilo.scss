@@ -6,10 +6,15 @@
 .card{
 	height: 40vh;
 }
+
+/*"./partials/extends",*/
 @import 
-    "./partials/_variables.scss",
-    "./partials/_body.scss",
-    "./partials/_header.scss",
-    "./partials/_main.scss",
-    "./partials/_footer.scss";
+    
+    "./partials/mixins",
+    "./partials/maps",
+    "./partials/variables",
+    "./partials/body",
+    "./partials/header",
+    "./partials/main",
+    "./partials/footer";
 

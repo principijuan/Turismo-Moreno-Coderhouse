@@ -9,6 +9,90 @@
   height: 40vh;
 }
 
+/*"./partials/extends",*/
+.botonesSass {
+  width: 15%;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boton1 {
+  background-color: #007BFF;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+.boton1:Hover {
+  background-color: #007AE8;
+}
+
+.boton2 {
+  background-color: #DC3545;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+.boton2:Hover {
+  background-color: #BC2F44;
+}
+
+.boton3 {
+  background-color: #28A745;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+.boton3:Hover {
+  background-color: #27933B;
+}
+
+.boton4 {
+  background-color: #007BFF;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+.boton4:Hover {
+  background-color: #007AE8;
+}
+
+.boton5 {
+  background-color: #DC3545;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+.boton5:Hover {
+  background-color: #BC2F44;
+}
+
+.boton6 {
+  background-color: #28A745;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+.boton6:Hover {
+  background-color: #27933B;
+}
+
 @media (max-width: 576px) {
   /* BODY */
   body {
@@ -112,22 +196,19 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .main__cabanas1 {
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  /*
+  .main__cabanas1{
+      @extend %mainCabanas;
   }
-  .main__cabanas2 {
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  .main__cabanas2{
+      @extend %mainCabanas;
   }
-  .main__cabanas3 {
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  .main__cabanas3{
+      @extend %mainCabanas;
   }
-  .main__cabanas4 {
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-  }
+  .main__cabanas4{
+      @extend %mainCabanas;
+  }*/
   .main__textoAlquileres {
     margin: 20px;
   }
@@ -275,6 +356,25 @@
   .main__info {
     display: inline-block;
   }
+  .main__botonPleno {
+    background-color: #EDBC53;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #4A2812;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 16px 31px;
+    text-decoration: none;
+  }
+  .main__botonPleno:hover {
+    background-color: #EDBC53;
+    transition: 0, 5s;
+  }
+  .main__botonPleno:active {
+    position: relative;
+    top: 1px;
+  }
   .btn-warning {
     background-color: #EDBC53;
     color: #4A2812;
@@ -301,46 +401,18 @@
     grid-template-columns: 75%;
     justify-content: center;
   }
-  .main__cabanas1 {
-    display: flex;
-    width: 75%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: solid 0px;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  /*.main__cabanas1{
+      @extend %main__cabanas2;
   }
-  .main__cabanas2 {
-    display: flex;
-    width: 75%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: solid 0px;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  .main__cabanas2{
+      @extend %main__cabanas2;
   }
-  .main__cabanas3 {
-    display: flex;
-    width: 75%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: solid 0px;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  .main__cabanas3{
+      @extend %main__cabanas2;
   }
-  .main__cabanas4 {
-    display: flex;
-    width: 75%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: solid 0px;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-  }
+  .main__cabanas4{
+      @extend %main__cabanas2;
+  }*/
   /* SERVICIOS */
   .main__todoServicios {
     margin: auto;
@@ -385,5 +457,8 @@
   footer {
     background-color: #EDBC53;
     width: 100%;
+  }
+  .footer {
+    margin: 0%;
   }
 }/*# sourceMappingURL=estilo.css.map */

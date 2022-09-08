@@ -1,0 +1,35 @@
+/* Oculto el código de los extends tanto acá como en _main.scss (líneas 32 a 43 y 244 a 255) porque me da error al compilar, y no pude entender qué es lo que estoy haciendo mal */
+
+/* A continuación, cito el mensaje de error que me tira */
+
+/* Compilation Error
+Error: From line 1, column 1 of g:\Mis documentos\Coder\Príncipi Juan - Entregable\estilos\partials\_extends.scss: 
+  ╷
+1 │ %mainCabanas {
+  │ ^^^^^^^^^^^^^
+  ╵
+You may not @extend selectors across media queries.
+   ╷
+32 │     @extend %mainCabanas;
+   │     ^^^^^^^^^^^^^^^^^^^^
+   ╵
+  g:\Mis documentos\Coder\Príncipi Juan - Entregable\estilos\partials\_main.scss 32:5  root stylesheet */
+
+
+
+
+/*
+%mainCabanas {
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+%mainCabanas2 {
+    display:flex;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: solid 0px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}*/
