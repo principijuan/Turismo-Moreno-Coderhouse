@@ -6,15 +6,16 @@
 .card{
 	height: 40vh;
 }
-
-/*"./partials/extends",*/
-@import 
-    
-    "./partials/mixins",
+@import    
     "./partials/maps",
     "./partials/variables",
     "./partials/body",
     "./partials/header",
     "./partials/main",
     "./partials/footer";
+
+@font-face{
+    font-family: Valentine Vibes;
+    src: url(../fonts/valentine\ vibes.ttf);
+}
 

@@ -9,54 +9,6 @@
   height: 40vh;
 }
 
-/*"./partials/extends",*/
-.botonesSass {
-  width: 15%;
-  margin: auto;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.boton1 {
-  background-color: #007BFF;
-  padding: 10px;
-  border: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  color: #fff;
-}
-.boton1:Hover {
-  background-color: #007AE8;
-}
-
-.boton2 {
-  background-color: #DC3545;
-  padding: 10px;
-  border: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  color: #fff;
-}
-.boton2:Hover {
-  background-color: #BC2F44;
-}
-
-.boton3 {
-  background-color: #28A745;
-  padding: 10px;
-  border: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  color: #fff;
-}
-.boton3:Hover {
-  background-color: #27933B;
-}
-
 .boton4 {
   background-color: #007BFF;
   padding: 10px;
@@ -180,12 +132,15 @@
     margin: auto;
     line-height: 500px;
     color: #EDBC53;
+    text-shadow: 0px 0px 10px #000000;
+    font-family: Valentine Vibes;
     font-size: 3rem;
   }
   .main__subtitulo {
-    margin: 2vh;
+    margin: 5vh;
     text-align: center;
-    font-weight: 600;
+    font-size: 4vh;
+    font-family: Valentine Vibes;
   }
   .main__fotoAlquileres {
     display: flex;
@@ -299,32 +254,75 @@
     width: 75%;
     margin: auto;
   }
+  /* TARIFAS */
+  .main__seccionTarifas {
+    background-color: #EDBC53;
+    width: 100%;
+    height: 100%;
+  }
+  .main__seccionTarifas .main__subtitulo {
+    color: #4A2812;
+    padding: 5vh;
+  }
+  .main__seccionTarifas .main__tarifas {
+    text-align: center;
+    padding-bottom: 15vh;
+  }
+  .main__seccionTarifas .main__tarifas ul {
+    color: #4A2812;
+    font-size: 3vh;
+    margin: 2vh;
+  }
+  .main__seccionTarifas .main__tarifas .main__tarifasTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main__seccionTarifas .main__tarifas .main__tarifasTexto2 {
+    margin-top: 10vh;
+  }
+  /* CÓMO LLEGAR */
+  .main__ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
+  .main__ubicacion .main__ubicacionTexto {
+    color: #EDBC53;
+    margin-top: 5vh;
+    font-size: large;
+  }
 }
 @media (min-width: 577px) {
   .main__fotoHome {
     width: 100%;
-    height: 50rem;
+    height: 75rem;
     text-align: center;
     padding-top: 15rem;
     background-image: url("../img/areanaturalprotegida.jpg");
     background-size: cover;
   }
-  .main__mensajeBienvenida {
-    text-align: center;
-    position: relative;
-    font-size: 60px;
+  .main__fotoHome .main__mensajeBienvenida {
+    font-size: 10vh;
     color: #EDBC53;
-    text-shadow: 0px 0px 15px #000000;
+    text-shadow: 0px 0px 10px #000000;
+    font-family: Valentine Vibes;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   .main__subtitulo {
     text-align: center;
-    font-size: 40px;
+    font-size: 5vh;
     color: #EDBC53;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-family: Valentine Vibes;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
   .main__items {
     display: flex;
+    justify-content: space-between;
   }
   /* CABAÑAS */
   .main__fotoAlquileres {
@@ -476,6 +474,50 @@
     text-decoration: none;
     color: #EDBC53;
   }
+  /* TARIFAS */
+  .main__seccionTarifas {
+    background-color: #EDBC53;
+    width: 100%;
+    height: 100%;
+  }
+  .main__seccionTarifas .main__subtitulo {
+    color: #4A2812;
+    padding: 5vh;
+  }
+  .main__seccionTarifas .main__tarifas {
+    text-align: center;
+    padding-bottom: 15vh;
+  }
+  .main__seccionTarifas .main__tarifas ul {
+    color: #4A2812;
+    font-size: 3vh;
+    margin: 2vh;
+  }
+  .main__seccionTarifas .main__tarifas .main__tarifasTexto {
+    display: flex;
+    justify-content: center;
+  }
+  .main__seccionTarifas .main__tarifas .main__tarifasTexto2 {
+    margin-bottom: -2vh;
+  }
+  /* CÓMO LLEGAR */
+  .main__ubicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .main__ubicacion .main__ubicacionTexto {
+    color: #EDBC53;
+    font-size: large;
+  }
+  /* CALENDARIO */
+  .main__calendario {
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    background-color: #EDBC53;
+  }
 }
 @media (max-width: 576px) {
   footer {
@@ -492,4 +534,8 @@
   .footer {
     margin: 0%;
   }
+}
+@font-face {
+  font-family: Valentine Vibes;
+  src: url(../fonts/valentine\ vibes.ttf);
 }/*# sourceMappingURL=estilo.css.map */

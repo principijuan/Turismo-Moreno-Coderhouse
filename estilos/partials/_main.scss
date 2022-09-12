@@ -12,12 +12,15 @@
     margin: auto;
     line-height: 500px;
     color: $secondaryColor;
+    text-shadow: 0px 0px 10px #000000;
+    font-family: Valentine Vibes;
     font-size: 3rem;
 }
 .main__subtitulo{
-    margin: 2vh;
+    margin: 5vh;
     text-align: center;
-    font-weight: 600;
+    font-size: 4vh;
+    font-family: Valentine Vibes;
 }
 .main__fotoAlquileres{
     display: flex;
@@ -137,32 +140,77 @@
 	width: 75%;
 	margin: auto;
 }
+/* TARIFAS */
+.main__seccionTarifas{
+    background-color: $secondaryColor;
+    width: 100%;
+    height: 100%;
+    .main__subtitulo{
+        color: $primaryColor;
+        padding: 5vh;
+    }
+    .main__tarifas{
+        text-align: center;
+        padding-bottom: 15vh;
+        ul{
+            color: $primaryColor;
+            font-size: 3vh;
+            margin: 2vh;
+        }
+        .main__tarifasTexto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main__tarifasTexto2{
+            margin-top: 10vh;
+        }
+    }
+}
+/* CÓMO LLEGAR */
+.main__ubicacion{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-bottom: 5vh;
+    .main__ubicacionTexto{
+        color: $secondaryColor;
+        margin-top: 5vh;
+        font-size: large;
+    }
+}
+
 }
 @media (min-width: 577px){
     .main__fotoHome{
         width: 100%;
-        height: 50rem;
+        height: 75rem;
         text-align: center;
         padding-top: 15rem;
         background-image: url("../img/areanaturalprotegida.jpg");
         background-size: cover;
+        .main__mensajeBienvenida{
+            font-size: 10vh;
+            color: $secondaryColor;
+            text-shadow: 0px 0px 10px #000000;
+            font-family: Valentine Vibes;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
     }
-    .main__mensajeBienvenida{
-        text-align: center;
-        position:relative;
-        font-size: 60px;
-        color: $secondaryColor;
-        text-shadow: 0px 0px 15px #000000;
-    }
+    
     .main__subtitulo{
         text-align: center;
-        font-size: 40px;
+        font-size: 5vh;
         color: $secondaryColor;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        font-family: Valentine Vibes;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     .main__items{
-        display: flex
+        display: flex;
+        justify-content:space-between;        
     }
     
     /* CABAÑAS */
@@ -316,5 +364,50 @@
     .main__items{
         text-decoration: none;
         color: $secondaryColor;
+    }
+
+    /* TARIFAS */
+    .main__seccionTarifas{
+        background-color: $secondaryColor;
+        width: 100%;
+        height: 100%;
+        .main__subtitulo{
+            color: $primaryColor;
+            padding: 5vh;
+        }
+        .main__tarifas{
+            text-align: center;
+            padding-bottom: 15vh;
+            ul{
+                color: $primaryColor;
+                font-size: 3vh;
+                margin: 2vh;
+            }
+            .main__tarifasTexto{
+                display: flex;
+                justify-content: center;
+            }
+            .main__tarifasTexto2{
+                margin-bottom: -2vh;
+            }
+        }
+    }
+    /* CÓMO LLEGAR */
+    .main__ubicacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10vh;
+        .main__ubicacionTexto{
+            color: $secondaryColor;
+            font-size: large;
+        }
+    }
+    /* CALENDARIO */
+    .main__calendario{
+        display: flex;
+        justify-content: center;
+        padding: 5vh;
+        background-color: $secondaryColor;
     }
 }
