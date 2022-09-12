@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.card{
+	height: 40vh;
+}
+
+/*"./partials/extends",*/
+@import 
+    
+    "./partials/mixins",
+    "./partials/maps",
+    "./partials/variables",
+    "./partials/body",
+    "./partials/header",
+    "./partials/main",
+    "./partials/footer";
+
