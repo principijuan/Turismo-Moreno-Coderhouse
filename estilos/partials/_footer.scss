@@ -1,0 +1,17 @@
+@media (max-width: 576px){
+footer{
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    text-align: center;
+}
+}
+@media (min-width: 577px){
+    footer {
+        background-color: $secondaryColor;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer{
+        margin-bottom: 0%;
+    }
+}

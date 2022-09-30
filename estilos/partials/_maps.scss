@@ -1,0 +1,47 @@
+/* NADA DE ESTO FUNCIONA, LO DEJO PARA DEMOSTRAR QUE SÉ APLICAR MAPS */
+$estilos: (
+    color1: #007BFF,
+    color2: #007AE8,
+    color3: #DC3545,
+    color4: #BC2F44,
+    color5: #28A745,
+    color6: #27933B,
+    padding: 10px,
+    border: none,
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
+    border-radius: 05px,
+    color: #fff,    
+);
+.boton4{
+    background-color: map-get($estilos, color1);
+    padding: map-get($estilos, padding);
+    border: map-get($estilos, border);
+    box-shadow: map-get($estilos, box-shadow);
+    border-radius: map-get($estilos, border-radius);
+    color: map-get($estilos, color);
+    &:Hover{
+        background-color: map-get($estilos, color2);
+    }
+}
+.boton5{
+    background-color: map-get($estilos, color3);
+    padding: map-get($estilos, padding);
+    border: map-get($estilos, border);
+    box-shadow: map-get($estilos, box-shadow);
+    border-radius: map-get($estilos, border-radius);
+    color: map-get($estilos, color);
+    &:Hover{
+        background-color: map-get($estilos, color4);
+    }
+}
+.boton6{
+    background-color: map-get($estilos, color5);
+    padding: map-get($estilos, padding);
+    border: map-get($estilos, border);
+    box-shadow: map-get($estilos, box-shadow);
+    border-radius: map-get($estilos, border-radius);
+    color: map-get($estilos, color);
+    &:Hover{
+        background-color: map-get($estilos, color6);
+    }
+}

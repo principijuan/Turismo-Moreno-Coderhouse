@@ -1,0 +1,1367 @@
+@media screen and (max-width: 767px){
+    .main__subtitulo{
+        margin: 5vh;
+        text-align: center;
+        font-size: 6vh;
+        font-family: Valentine Vibes;
+        color: $secondaryColor;
+    }
+/* HOME */
+    .main__fotoHome{
+        width: 100%;
+        height: 60rem;
+        text-align: center;
+        background-image: url("../img/areanaturalprotegida.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .main__mensajeBienvenida{
+            font-size: 7vh;
+            width: 95%;
+            margin: auto;
+            color: $secondaryColor;
+            text-shadow: 0px 0px 10px #000000;
+            font-family: Valentine Vibes;
+        }
+    }
+    .main__fotoHomeRobles{
+        width: 100%;
+        height: 60rem;
+        text-align: center;
+        padding-top: 15rem;
+        background-image: url("../img/home/losrobleshome.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        .main__mensajeBienvenida{
+            font-size: 10vh;
+            color: $secondaryColor;
+            text-shadow: 0px 0px 10px #000000;
+            font-family: Valentine Vibes;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+.main__home{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8vh;
+    h3{
+        color: $secondaryColor;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-weight: 600;
+    }
+    p{
+        color: $secondaryColor;
+        width: 80%;
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }
+    button{
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }
+    .main__homeOtros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 16vh;
+        div{
+            box-shadow: $boxShadow;
+            border-radius: $borderRadius;
+            padding: 2vh 1vh;
+            margin-bottom: 4vh;
+        }
+    }
+    .main__homeCard{
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        width: 100%;
+        margin: 4vh 0vh;
+        align-items: center;
+        div{
+            margin: 2vh 0vh;
+        }
+        .main__fotosHome{
+            border-radius: $borderRadius;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
+
+/* CABAÑAS */
+.main__alquileres{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    .main__cabanas1{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+    .main__cabanas2{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+    .main__cabanas3{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+    .main__cabanas4{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+}
+.main__alquiler3{
+    margin: 0 20px 0 0;
+}
+.main__alquiler2{
+    font-weight: 800;
+    font-size: 30px;
+}
+.main__alquiler4{
+    font-weight: 600;
+}
+.btn-warning{
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    margin: 0 5px;
+}
+.btn-outline-warning{
+    border-color: $secondaryColor;
+    color:$secondaryColor;
+    margin: 0 5px;
+}
+/* SERVICIOS */
+.main__todoServicios{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    .main__servicios{
+        margin: auto;
+        margin-bottom: 4vh;
+        display: flex;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        .main__fotoServicios{
+            width: 30vh;
+            border-radius: 15px;
+        }
+        .main__textoServicios{
+            color: $secondaryColor;
+            width: 50vw;
+            margin-left: 2vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;    
+            padding: 1vh 0vh;        
+        }
+    }
+    .main__servicio{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .main__items{
+        text-decoration: none;
+        color: $secondaryColor;
+        display: flex;
+        justify-content: start;
+        li{
+            margin-right: 3vh;
+        }
+    }
+}
+
+/* CÓMO LLEGAR */
+.main__ubicacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10vh;
+    .main__ubicacionTexto{
+        text-align: center;
+        color: $secondaryColor;
+        font-size: large;
+        div{
+            margin-bottom: 1vh;
+            margin-top: 2vh;
+        }
+        ul{
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+    }
+}
+/* TARIFAS */
+.main__seccionTarifas{
+    background-color: $secondaryColor;
+    width: 100%;
+    height: 100%;
+    .main__subtitulo{
+        color: $primaryColor;
+        padding: 5vh;
+    }
+    .main__tarifas{
+        text-align: center;
+        padding-bottom: 15vh;
+        ul{
+            color: $primaryColor;
+            font-size: 3vh;
+            margin: 2vh;
+            padding: 0%;
+            text-align: center;
+        }
+        .main__tarifasTexto{
+            display: flex;
+            justify-content: center;
+        }
+        .main__tarifasTexto2{
+            margin-bottom: -2vh;
+        }
+    }
+}
+/* BUS TURISTICO */
+.main__busTuristico{
+    .main__tituloBus{
+        margin: 3vh;
+        h1{
+            color: $secondaryColor;
+            text-align: center;
+            font-size: 7vh;
+        }   
+    }
+    .main__video {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    p{
+        color: $secondaryColor;
+        text-align: center;
+        font-size: 2vh;
+        margin: auto;
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+        max-width: 80vw;
+        font-weight: 600;
+    }
+    .main__busSitios{
+        color: $secondaryColor;
+        font-size: 1.5vh;
+        margin: auto;
+        margin-bottom: 4vh;
+        max-width: 1280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            margin: 1vh;
+        }
+    }
+    .main__carousel{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 4vh;
+        justify-content: center;
+        img{
+            margin: auto;
+        }
+    }
+    .main__busInfo{
+        p{
+            color: $secondaryColor;
+            text-align: center;
+            font-size: 2vh;
+            margin: auto;
+            max-width: 80vw;
+            font-weight:normal;
+        }
+        .main__busInscripcion{
+            color: $secondaryColor;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 0px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 8vh;
+            margin-top: 4vh;
+            border-radius: $borderRadius;
+            box-shadow: $boxShadow;
+            padding: 1vh;
+            p{
+                font-size: 2.2vw;
+            }
+            .main__busCupos{
+                font-size: 4vw;
+            }
+            ol{
+                font-size: 2.3vw;
+                border-left: solid;
+            }
+        }
+    }
+}
+/* CALENDARIO */
+.main__calendario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondaryColor;
+    .main__subtitulo{
+        color: $primaryColor;
+    }
+    .main__calendarioIframeMobile{
+        margin-bottom: 8vh;
+    }
+    .main__calendarioIframeTablet{
+        display: none;
+    }
+    .main__calendarioIframeDesktop{
+        display: none;
+    }
+}
+.main__eventos{
+    color: $secondaryColor;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8vh;
+    .main__evento{
+        display: flex;
+        margin: 2vh;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        width: 75%;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: $borderRadius;
+        }
+        .main__eventosTexto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 0vh 2vh;
+            p{
+                margin: 0vh;
+            }
+            button{
+                margin: 0%;
+                margin-top: 1vh;
+            }
+        }
+    }
+}
+/* CONTACTO */
+.main__contacto{
+    width: 95%;
+    margin: auto;
+    padding: 5vh;
+}
+.main__contactoFondo{
+    background-color: $secondaryColor;
+    width: 100%;
+}
+.main__contactoTexto{
+    font-size: 5vh;
+    color: $primaryColor;
+    padding: 5vh;
+    font-weight: 600;
+    text-align: center;
+}
+.main__redesTexto{
+    color: $primaryColor;
+    display: flex;
+    justify-content: center;
+    margin: 4vh;
+}
+.main__redes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    iframe{
+        margin-bottom: 4vh;
+    }
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .main__subtitulo{
+        text-align: center;
+        font-size: 5vh;
+        color: $secondaryColor;
+        font-family: Valentine Vibes;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    /* HOME */
+.main__fotoHome{
+    width: 100%;
+    height: 75rem;
+    text-align: center;
+    background-image: url("../img/areanaturalprotegida.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main__mensajeBienvenida{
+        font-size: 10vh;
+        color: $secondaryColor;
+        text-shadow: 0px 0px 10px #000000;
+        font-family: Valentine Vibes;
+    }
+}
+.main__fotoHomeRobles{
+    width: 100%;
+    height: 75rem;
+    text-align: center;
+    padding-top: 15rem;
+    background-image: url("../img/home/losrobleshome.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .main__mensajeBienvenida{
+        font-size: 10vh;
+        color: $secondaryColor;
+        text-shadow: 0px 0px 10px #000000;
+        font-family: Valentine Vibes;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+.main__home{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8vh;
+    h3{
+        color: $secondaryColor;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-weight: 600;
+    }
+    p{
+        color: $secondaryColor;
+        width: 80%;
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }
+    button{
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }
+    .main__homeOtros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 16vh;
+        div{
+            box-shadow: $boxShadow;
+            border-radius: $borderRadius;
+            padding: 2vh 1vh;
+            margin-bottom: 4vh;
+        }
+    }
+    .main__homeCard{
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        width: 100%;
+        margin: 4vh 0vh;
+        align-items: center;
+        div{
+            margin: 2vh 0vh;
+        }
+        .main__fotosHome{
+            border-radius: $borderRadius;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
+/* CABAÑAS */
+.main__alquileres{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    .main__cabanas1{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+    .main__cabanas2{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+    .main__cabanas3{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+    .main__cabanas4{
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        .main__fotoAlquileres{
+            width: 100%;
+            border-radius: $borderRadius;
+        }
+        .main__textoAlquileres{
+            margin: 20px;
+            color: $secondaryColor;
+            .main__textoAlquileres1{
+                display: flex;
+            }
+        }
+    }
+}
+.main__alquiler3{
+    margin: 0 20px 0 0;
+}
+.main__alquiler2{
+    font-weight: 800;
+    font-size: 30px;
+}
+.main__alquiler4{
+    font-weight: 600;
+}
+.btn-warning{
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    margin: 0 5px;
+}
+.btn-outline-warning{
+    border-color: $secondaryColor;
+    color:$secondaryColor;
+    margin: 0 5px;
+}
+
+/* SERVICIOS */
+.main__todoServicios{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    .main__servicios{
+        margin: auto;
+        margin-bottom: 4vh;
+        display: flex;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        .main__fotoServicios{
+            width: 30vh;
+            border-radius: 15px;
+        }
+        .main__textoServicios{
+            color: $secondaryColor;
+            width: 50vw;
+            margin-left: 2vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;    
+            padding: 1vh 0vh;        
+        }
+    }
+    .main__servicio{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .main__items{
+        text-decoration: none;
+        color: $secondaryColor;
+        display: flex;
+        justify-content: start;
+        li{
+            margin-right: 3vh;
+        }
+    }
+}
+
+/* CÓMO LLEGAR */
+.main__ubicacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10vh;
+    .main__ubicacionTexto{
+        text-align: center;
+        color: $secondaryColor;
+        font-size: large;
+        div{
+            margin-bottom: 1vh;
+            margin-top: 2vh;
+        }
+        ul{
+            margin-bottom: 0;
+        }
+    }
+}
+/* TARIFAS */
+.main__seccionTarifas{
+    background-color: $secondaryColor;
+    width: 100%;
+    height: 100%;
+    .main__subtitulo{
+        color: $primaryColor;
+        padding: 5vh;
+    }
+    .main__tarifas{
+        text-align: center;
+        padding-bottom: 15vh;
+        ul{
+            color: $primaryColor;
+            font-size: 3vh;
+            margin: 2vh;
+        }
+        .main__tarifasTexto{
+            display: flex;
+            justify-content: center;
+        }
+        .main__tarifasTexto2{
+            margin-bottom: -2vh;
+        }
+    }
+}
+/* BUS TURÍSTICO */
+.main__busTuristico{
+    .main__tituloBus{
+        margin: 3vh;
+        h1{
+            color: $secondaryColor;
+            text-align: center;
+            font-size: 7vh;
+        }   
+    }
+    .main__video {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    p{
+        color: $secondaryColor;
+        text-align: center;
+        font-size: 2vh;
+        margin: auto;
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+        max-width: 80vw;
+        font-weight: 600;
+    }
+    .main__busSitios{
+        color: $secondaryColor;
+        font-size: 1.5vh;
+        margin: auto;
+        margin-bottom: 4vh;
+        max-width: 1280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            margin: 1vh;
+        }
+    }
+    .main__carousel{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 4vh;
+        justify-content: center;
+        img{
+            margin: auto;
+        }
+    }
+    .main__busInfo{
+        p{
+            color: $secondaryColor;
+            text-align: center;
+            font-size: 2vh;
+            margin: auto;
+            max-width: 80vw;
+            font-weight:normal;
+        }
+        .main__busInscripcion{
+            color: $secondaryColor;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 0px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 8vh;
+            margin-top: 4vh;
+            border-radius: $borderRadius;
+            box-shadow: $boxShadow;
+            padding: 1vh;
+            p{
+                font-size: 2.2vw;
+            }
+            .main__busCupos{
+                font-size: 4vw;
+            }
+            ol{
+                font-size: 2.3vw;
+                border-left: solid;
+            }
+        }
+    }
+}
+/* CALENDARIO */
+.main__calendario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondaryColor;
+    .main__subtitulo{
+        color: $primaryColor;
+    }
+    .main__calendarioIframeTablet{
+        margin-bottom: 8vh;
+    }
+    .main__calendarioIframeMobile{
+        display: none;
+    }
+    .main__calendarioIframeDesktop{
+        display: none;
+    }
+}
+.main__eventos{
+    color: $secondaryColor;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8vh;
+    .main__evento{
+        display: flex;
+        margin: 2vh;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        width: 75%;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: $borderRadius;
+        }
+        .main__eventosTexto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 0vh 2vh;
+            p{
+                margin: 0vh;
+            }
+            button{
+                margin: 0%;
+                margin-top: 1vh;
+            }
+        }
+    }
+}
+/* CONTACTO */
+.main__contacto{
+    width: 95%;
+    margin: auto;
+    padding: 5vh;
+}
+.main__contactoFondo{
+    background-color: $secondaryColor;
+    width: 100%;
+}
+.main__contactoTexto{
+    font-size: 5vh;
+    color: $primaryColor;
+    padding: 5vh;
+    font-weight: 600;
+    text-align: center;
+}
+.main__redesTexto{
+    color: $primaryColor;
+    display: flex;
+    justify-content: center;
+    margin: 4vh;
+}
+.main__redes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    iframe{
+        margin-bottom: 4vh;
+    }
+}
+}
+@media screen and (min-width: 1024px){
+    .main__fotoHome{
+        width: 100%;
+        height: 75rem;
+        text-align: center;
+        background-image: url("../img/areanaturalprotegida.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .main__mensajeBienvenida{
+            font-size: 10vh;
+            color: $secondaryColor;
+            text-shadow: 0px 0px 10px #000000;
+            font-family: Valentine Vibes;
+        }
+    }
+    .main__fotoHomeRobles{
+        width: 100%;
+        height: 75rem;
+        text-align: center;
+        padding-top: 15rem;
+        background-image: url("../img/home/losrobleshome.png");
+        background-size: cover;
+        .main__mensajeBienvenida{
+            font-size: 10vh;
+            color: $secondaryColor;
+            text-shadow: 0px 0px 10px #000000;
+            font-family: Valentine Vibes;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+    
+    .main__subtitulo{
+        text-align: center;
+        font-size: 5vh;
+        color: $secondaryColor;
+        font-family: Valentine Vibes;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .main__items{
+        display: flex;
+        justify-content:space-between;        
+    }
+    
+    /* CABAÑAS */
+    .main__fotoAlquileres{
+        width: 75%;
+        border-radius: $borderRadius;
+        width: 60vh;
+    }
+    .main__textoAlquileres{
+        color: $secondaryColor;
+        margin: 6vh;
+    }
+    .main__alquiler1{
+        font-size: 20px;
+    }
+    .main__alquiler2{
+        font-size: 60px;
+    }
+    .main__alquiler3{
+        font-size: 15px;
+    }
+    .main__alquiler4{
+        font-size: 25px;
+    }
+    .main__textoAlquileres1{
+        display: inline-flex;	
+    }
+    .botones{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .main__info{
+        display:inline-block;
+    }
+    .main__botonPleno {
+        background-color:$secondaryColor;
+        border-radius:42px;
+        display:inline-block;
+        cursor:pointer;
+        color:$primaryColor;
+        font-size:17px;
+        font-weight:bold;
+        padding:16px 31px;
+        text-decoration:none;
+            &:hover{
+                background-color:$secondaryColor;
+                transition: 0,5s;
+            }
+            &:active{
+                position:relative;
+                top:1px;       
+            }
+    }
+    .btn-warning{
+        background-color: $secondaryColor;
+        color: $primaryColor;
+        margin: 0 5px;
+            &:hover{
+                background-color: #ffffff;
+                border-color: #ffffff;                
+            }
+    }
+    .btn-outline-warning{
+        border-color: $secondaryColor;
+        color:$secondaryColor;
+        margin: 0 5px;
+            &:hover{
+                background-color: #ffffff;
+                border-color: #ffffff;
+                transition: 0.5s;
+            }
+    }
+    
+    /* CABAÑAS GRID */
+    .main__alquileres{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center
+    }
+    .main__cabanas1 {
+        display:flex;
+        width: 75%;
+        margin: auto;
+        border: solid 0px;
+        border-radius: $borderRadius;
+        padding: 20px;
+        box-shadow: $boxShadow;
+        min-width: 98vh;
+    }
+    .main__cabanas2{
+        display:flex;
+        width: 75%;
+        margin: auto;
+        border: solid 0px;
+        border-radius: $borderRadius;
+        padding: 20px;
+        box-shadow: $boxShadow;
+        min-width: 98vh;
+    }
+    .main__cabanas3{
+        display:flex;
+        width: 75%;
+        margin: auto;
+        border: solid 0px;
+        border-radius: $borderRadius;
+        padding: 20px;
+        box-shadow: $boxShadow;
+        min-width: 98vh;
+    }
+    .main__cabanas4{
+        display:flex;
+        width: 75%;
+        margin: auto;
+        border: solid 0px;
+        border-radius: $borderRadius;
+        padding: 20px;
+        box-shadow: $boxShadow;
+        min-width: 98vh;
+    }
+    
+    /* SERVICIOS */
+    .main__todoServicios{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .main__servicios{
+        margin: auto;
+        margin-bottom: 4vh;
+        display: flex;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        .main__fotoServicios{
+            width: 30vh;
+            border-radius: 15px;
+        }
+        .main__textoServicios{
+            color: $secondaryColor;
+            width: 50vh;
+            margin-left: 2vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;    
+            padding: 1vh 0vh;        
+        }
+    }
+    .main__servicio{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .main__items{
+        text-decoration: none;
+        color: $secondaryColor;
+        display: flex;
+        justify-content: start;
+        li{
+            margin-right: 3vh;
+        }
+    }
+
+    /* TARIFAS */
+    .main__seccionTarifas{
+        background-color: $secondaryColor;
+        width: 100%;
+        height: 100%;
+        .main__subtitulo{
+            color: $primaryColor;
+            padding: 5vh;
+        }
+        .main__tarifas{
+            text-align: center;
+            padding-bottom: 15vh;
+            ul{
+                color: $primaryColor;
+                font-size: 3vh;
+                margin: 2vh;
+            }
+            .main__tarifasTexto{
+                display: flex;
+                justify-content: center;
+            }
+            .main__tarifasTexto2{
+                margin-bottom: -2vh;
+            }
+        }
+    }
+    /* CÓMO LLEGAR */
+    .main__ubicacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10vh;
+        .main__ubicacionTexto{
+            color: $secondaryColor;
+            font-size: large;
+        }
+    }
+    /* BUS TURISTICO */
+    .main__busTuristico{
+        .main__tituloBus{
+            margin: 3vh;
+            h1{
+                color: $secondaryColor;
+                text-align: center;
+                font-size: 7vh;
+            }   
+        }
+        .main__video {
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            color: $secondaryColor;
+            text-align: center;
+            font-size: 2vh;
+            margin: auto;
+            margin-top: 4vh;
+            margin-bottom: 1vh;
+            max-width: 1280px;
+            font-weight: 600;
+        }
+        .main__busSitios{
+            color: $secondaryColor;
+            font-size: 1.5vh;
+            margin: auto;
+            margin-bottom: 4vh;
+            max-width: 1280px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            li{
+                margin: 1vh;
+            }
+        }
+        .main__carousel{
+            width: 75%;
+            margin: auto;
+            margin-bottom: 4vh;
+            justify-content: center;
+            img{
+                margin: auto;
+            }
+        }
+        .main__busInfo{
+            p{
+                color: $secondaryColor;
+                text-align: center;
+                font-size: 2vh;
+                margin: auto;
+                max-width: 1280px;
+                font-weight:normal;
+            }
+            .main__busInscripcion{
+                color: $secondaryColor;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 0px;
+                width: 35%;
+                margin: auto;
+                margin-bottom: 8vh;
+                margin-top: 4vh;
+                border-radius: $borderRadius;
+                box-shadow: $boxShadow;
+                padding: 1vh;
+                p{
+                    font-size: 1.1vw;
+                }
+                .main__busCupos{
+                    font-size: 2vw;
+                }
+                ol{
+                    font-size: 1vw;
+                    border-left: solid;
+                }
+            }
+        }
+    }
+    /* CALENDARIO */
+        .main__calendario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $secondaryColor;
+            .main__subtitulo{
+                color: $primaryColor;
+            }
+            .main__calendarioIframeDesktop{
+                margin-bottom: 8vh;
+            }
+            .main__calendarioIframeMobile{
+                display: none;
+            }
+            .main__calendarioIframeTablet{
+                display: none;
+            }
+        }
+        .main__eventos{
+            color: $secondaryColor;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 8vh;
+            .main__evento{
+                display: flex;
+                margin: 2vh;
+                box-shadow: $boxShadow;
+                border-radius: $borderRadius;
+                img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: $borderRadius;
+                }
+                .main__eventosTexto{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    margin: 0vh 2vh;
+                    p{
+                        margin: 0vh;
+                    }
+                    button{
+                        margin: 0%;
+                        margin-top: 1vh;
+                    }
+                }
+            }
+        }
+    /* CONTACTO */
+        .main__contacto{
+            width: 50%;
+            margin: auto;
+            padding: 5vh;
+        }
+        .main__contactoFondo{
+            background-color: $secondaryColor;
+            width: 100%;
+        }
+        .main__contactoTexto{
+            font-size: 5vh;
+            color: $primaryColor;
+            padding: 5vh;
+            font-weight: 600;
+            text-align: center;
+        }
+        .main__redesTexto{
+            color: $primaryColor;
+            display: flex;
+            justify-content: center;
+            margin: 4vh;
+        }
+        .main__redes{
+            display: flex;
+            width: 75%;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+    /* HOME */
+    .main__home{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 8vh;
+        h3{
+            color: $secondaryColor;
+            margin-left: 3vh;
+            margin-right: 3vh;
+            font-weight: 600;
+        }
+        p{
+            color: $secondaryColor;
+            width: 80%;
+            margin-left: 3vh;
+            margin-right: 3vh;
+        }
+        button{
+            margin-left: 3vh;
+            margin-right: 3vh;
+        }
+        .main__homeOtros{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 10vh;
+            div{
+                box-shadow: $boxShadow;
+                border-radius: $borderRadius;
+                padding: 2vh 1vh;
+            }
+        }
+        .main__homeCard{
+            display: flex;
+            box-shadow: $boxShadow;
+            border-radius: $borderRadius;
+            width: 100%;
+            margin: 4vh 0vh;
+            align-items: center;
+            .main__fotosHome{
+                border-radius: $borderRadius;
+                height: auto;
+                max-width: 50%;
+            }
+        }
+    }
+}

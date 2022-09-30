@@ -1,0 +1,76 @@
+
+@media screen and (max-width: 767px){
+.header__logoMenu{
+    width: 25vh;
+}
+header {
+    display: flex;
+    background: $primaryColor;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    box-shadow: $boxShadow;
+}
+.header__barraMenu{
+    width: 100%;
+    height: 5vh;
+    margin: auto;
+    position: fixed;
+    display: flex;
+    background-color: $primaryColor;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.header__textoMenu{
+    font-weight: 400;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: $secondaryColor;
+    margin: auto;	
+        &:hover{
+            color: #ffffff;
+        }
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    header{
+        box-shadow: $boxShadow;
+    }
+    .header__logoMenu{
+        padding: 15px 30px 15px 30px;
+        width: 22vh
+    }
+    .header__textoMenu{
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+        color: $secondaryColor;
+        display: inline-block;
+        margin: 0 1vh;
+            &:hover{
+                color: #ffffff;
+                transition: 0.5s;
+            }	
+    }
+}
+@media screen and (min-width: 1024px){
+    header{
+        box-shadow: $boxShadow;
+    }
+    .header__logoMenu{
+        padding: 15px 30px 15px 30px;
+        width: 22vh
+    }
+    .header__textoMenu{
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+        color: $secondaryColor;
+        display: inline-block;
+        margin: 0 1vh;
+            &:hover{
+                color: #ffffff;
+                transition: 0.5s;
+            }	
+    }
+}

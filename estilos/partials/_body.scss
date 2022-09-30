@@ -1,0 +1,26 @@
+@media (max-width: 576px){
+	
+	/* BODY */
+	body {
+		background: $primaryColor;
+		width: 100%;
+		color: $secondaryColor;
+	}
+	img{
+		width: 100%;
+	}
+}
+@media (min-width: 577px){
+body {
+	background: $primaryColor;
+	width: 100%;
+}
+hr {
+	width: 75%;
+	height: 2px;
+	background-color: $secondaryColor;
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+}
