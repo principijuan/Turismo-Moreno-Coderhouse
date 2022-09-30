@@ -179,7 +179,7 @@
     height: 60rem;
     text-align: center;
     padding-top: 15rem;
-    background-image: url("../img/home/losrobleshome.png");
+    background-image: url("../img/Home/losrobleshome.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -627,7 +627,7 @@
     height: 75rem;
     text-align: center;
     padding-top: 15rem;
-    background-image: url("../img/home/losrobleshome.png");
+    background-image: url("../img/Home/losrobleshome.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1061,7 +1061,7 @@
     height: 75rem;
     text-align: center;
     padding-top: 15rem;
-    background-image: url("../img/home/losrobleshome.png");
+    background-image: url("../img/Home/losrobleshome.png");
     background-size: cover;
   }
   .main__fotoHomeRobles .main__mensajeBienvenida {
